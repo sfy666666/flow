@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/text_flow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="文字式FlowLayout" />
+
+    <Button
+        android:id="@+id/photo_flow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="图片式FlowLayout" />
+
+    <Button
+        android:id="@+id/diff_height_text_flow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="不同高度文字式FlowLayout" />
+
+    <Button
+        android:id="@+id/product_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="商品属性界面" />
+
+    <Button
+        android:id="@+id/suspension_product_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="悬浮商品属性界面" />
+
+    <Button
+        android:id="@+id/viewpage_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="分页效果" />
+
+    <Button
+        android:id="@+id/longclick_delete_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="长点击删除效果" />
+
+</LinearLayout>
